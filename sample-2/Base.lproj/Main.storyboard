@@ -28,6 +28,14 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D88-Cu-Dqt">
+                                <rect key="frame" x="151" y="340" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="Pwq-Vt-JEK" kind="show" id="Gbo-WL-CUV"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -36,11 +44,47 @@
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="OOR-5r-WEg">
+            <objects>
+                <viewController id="Pwq-Vt-JEK" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FwK-YK-cMB"/>
+                        <viewControllerLayoutGuide type="bottom" id="252-wN-wGH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kkx-v3-s2z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.041232995688915253" green="0.92019468545913696" blue="0.86937469244003296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ony-1M-7CL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="137"/>
+        </scene>
         <!--AV Player View Controller-->
         <scene sceneID="1iM-4c-B6x">
             <objects>
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="cFl-f4-idg" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Stb-IB-liw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="807"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="TYh-cn-TEv">
+            <objects>
+                <viewController id="BBE-qF-Xg8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="V91-t3-jb8"/>
+                        <viewControllerLayoutGuide type="bottom" id="AWX-0A-vFu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AnX-LN-vA1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vud-dP-ei4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
