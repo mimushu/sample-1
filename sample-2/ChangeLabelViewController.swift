@@ -11,6 +11,7 @@ import UIKit
 class ChangeLabelViewController: UIViewController {
 
     override func viewDidLoad() {
+        print("Hi!")
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
@@ -19,6 +20,7 @@ class ChangeLabelViewController: UIViewController {
     @IBOutlet var sampleLabel: UILabel!
     @IBOutlet var sampleButton: UIButton!
     override func didReceiveMemoryWarning() {
+        print("Hello, guys!")
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -34,4 +36,7 @@ class ChangeLabelViewController: UIViewController {
     }
     */
 
+    @IBAction func changeButtonPushed(_ sender: Any) {
+        print("Hello! Button is pushed.")
+    }
 }

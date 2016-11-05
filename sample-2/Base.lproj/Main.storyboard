@@ -60,6 +60,9 @@
                                 <rect key="frame" x="148" y="429" width="78" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeButtonPushed:" destination="Pwq-Vt-JEK" eventType="touchUpInside" id="JH0-yW-83o"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="たのしい〜！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQn-Y2-avH">
                                 <rect key="frame" x="133" y="178" width="109" height="26"/>
