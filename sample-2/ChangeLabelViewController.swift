@@ -20,7 +20,7 @@ class ChangeLabelViewController: UIViewController {
     @IBOutlet var sampleLabel: UILabel!
     @IBOutlet var sampleButton: UIButton!
     override func didReceiveMemoryWarning() {
-        print("Hello, guys!")
+        print("Hello, guys! view did load")
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
@@ -39,5 +39,7 @@ class ChangeLabelViewController: UIViewController {
     @IBAction func changeButtonPushed(_ sender: Any) {
         print("Hello! Button is pushed.")
         sampleLabel.text="長澤まさみだいすき"
+        print("aaa")
+        sampleButton.setTitle("new message", for: UIControlState.normal)
     }
 }
