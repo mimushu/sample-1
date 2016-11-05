@@ -44,10 +44,10 @@
             </objects>
             <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
         </scene>
-        <!--View Controller-->
+        <!--Change Label View Controller-->
         <scene sceneID="OOR-5r-WEg">
             <objects>
-                <viewController id="Pwq-Vt-JEK" sceneMemberID="viewController">
+                <viewController id="Pwq-Vt-JEK" customClass="ChangeLabelViewController" customModule="sample_2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FwK-YK-cMB"/>
                         <viewControllerLayoutGuide type="bottom" id="252-wN-wGH"/>
@@ -55,12 +55,33 @@
                     <view key="view" contentMode="scaleToFill" id="kkx-v3-s2z">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmX-ah-1zA">
+                                <rect key="frame" x="148" y="429" width="78" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeButtonPushed:" destination="Pwq-Vt-JEK" eventType="touchUpInside" id="JH0-yW-83o"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="たのしい〜！" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQn-Y2-avH">
+                                <rect key="frame" x="94" y="178" width="186" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="0.041232995688915253" green="0.92019468545913696" blue="0.86937469244003296" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="sampleButton" destination="wmX-ah-1zA" id="Pra-MO-F7v"/>
+                        <outlet property="sampleLabel" destination="HQn-Y2-avH" id="pt9-i2-orE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ony-1M-7CL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="593" y="137"/>
+            <point key="canvasLocation" x="589.60000000000002" y="136.28185907046478"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="1iM-4c-B6x">
