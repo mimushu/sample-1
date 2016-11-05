@@ -36,10 +36,5 @@ class ChangeLabelViewController: UIViewController {
     }
     */
 
-    @IBAction func changeButtonPushed(_ sender: Any) {
-        print("Hello! Button is pushed.")
-        sampleLabel.text="長澤まさみだいすき"
-        print("aaa")
-        sampleButton.setTitle("new message", for: UIControlState.normal)
-    }
+   
 }
