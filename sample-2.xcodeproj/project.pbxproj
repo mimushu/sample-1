@@ -12,6 +12,7 @@
 		DD9CE9D01DCD6FA700C19E6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9CE9CE1DCD6FA700C19E6B /* Main.storyboard */; };
 		DD9CE9D21DCD6FA700C19E6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD9CE9D11DCD6FA700C19E6B /* Assets.xcassets */; };
 		DD9CE9D51DCD6FA700C19E6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD9CE9D31DCD6FA700C19E6B /* LaunchScreen.storyboard */; };
+		DD9CE9DD1DCD7C8200C19E6B /* ChangeLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9CE9DC1DCD7C8200C19E6B /* ChangeLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD9CE9D11DCD6FA700C19E6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD9CE9D41DCD6FA700C19E6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD9CE9D61DCD6FA700C19E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD9CE9DC1DCD7C8200C19E6B /* ChangeLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				DD9CE9CA1DCD6FA700C19E6B /* AppDelegate.swift */,
 				DD9CE9CC1DCD6FA700C19E6B /* ViewController.swift */,
 				DD9CE9CE1DCD6FA700C19E6B /* Main.storyboard */,
+				DD9CE9DC1DCD7C8200C19E6B /* ChangeLabelViewController.swift */,
 				DD9CE9D11DCD6FA700C19E6B /* Assets.xcassets */,
 				DD9CE9D31DCD6FA700C19E6B /* LaunchScreen.storyboard */,
 				DD9CE9D61DCD6FA700C19E6B /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD9CE9CD1DCD6FA700C19E6B /* ViewController.swift in Sources */,
+				DD9CE9DD1DCD7C8200C19E6B /* ChangeLabelViewController.swift in Sources */,
 				DD9CE9CB1DCD6FA700C19E6B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
