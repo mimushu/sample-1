@@ -9,23 +9,21 @@
 import UIKit
 
 class ChangeLabelViewController: UIViewController {
-
+    
+    @IBOutlet var sampleLabel: UILabel!
+    @IBOutlet var sampleButton: UIButton!
+    
     override func viewDidLoad() {
-        print("Hi!")
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet var sampleLabel: UILabel!
-    @IBOutlet var sampleButton: UIButton!
     override func didReceiveMemoryWarning() {
-        print("Hello, guys! view did load")
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
     /*
     // MARK: - Navigation
 
@@ -37,7 +35,6 @@ class ChangeLabelViewController: UIViewController {
     */
 
     @IBAction func changeButtonPushed(_ sender: Any) {
-        print("Hello! Button is pushed.")
         sampleLabel.text="長澤まさみだいすき"
         
     }
